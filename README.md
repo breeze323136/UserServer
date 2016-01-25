@@ -9,7 +9,10 @@
 这儿将跳过所有关于Linxu的介绍，可自行百度查看关于Linux的介绍。我们假设你已经有了一个Linux系统，那么就可以快速入门学习。以下是需要掌握的常用linux命令：
  
 ``` 
-ls、cd、pwd、man、mkdir、rm、mv、nano、vi、cat、touch、echo、more、less、halt、reboot、whoami、su、init、clear、head、cp、tail、wc、grep、find、groupadd、groupmod、groupdel、useradd、usermod、userdel、passwd、chmod、chomod、chown、crontab、mount、umount、service、ps、start、stop、make
+ls、cd、pwd、man、mkdir、rm、mv、nano、vi、cat、touch、echo、more、less、halt、reboot、
+whoami、su、init、clear、head、cp、tail、wc、grep、find、groupadd、groupmod、groupdel、
+useradd、usermod、userdel、passwd、chmod、chomod、chown、crontab、mount、umount、service、
+ps、start、stop、make
 ```
 
 ##基本命令一
