@@ -29,8 +29,12 @@ ls -al		以列表的形式查看所有文件信息（包含隐藏文件）
 <br>
 
 ######pwd 显示当前目录
-![Alt text](./屏幕快照 2016-01-26 上午12.36.29.png)
-
+```
+[root@iZ28b2y73h7Z ~]# cd /home/ThinkPHP/
+[root@iZ28b2y73h7Z ThinkPHP]# pwd
+/home/ThinkPHP
+[root@iZ28b2y73h7Z ThinkPHP]# 
+```
 
 ######cd 命令	： 切换目录
 
@@ -43,17 +47,59 @@ cd  /home/code   切换到 根目录下的 home/code 目录下
 结果 ls   和 pwd 一起使用试试，一般这也是 Linux最常用的三个命令组合。
 
 #####clear命令：  清屏
-当前屏幕被一些数据给占满了，如：
-![Alt text](./屏幕快照 2016-01-26 上午12.46.10.png)
+```
+Welcome to aliyun Elastic Compute Service!
 
-可以使用 clear 进行清屏，给屏幕预留空间,执行 clear 后的效果：
-![Alt text](./屏幕快照 2016-01-26 上午12.47.34.png)
+[root@iZ28b2y73h7Z ~]# 
+[root@iZ28b2y73h7Z ~]# 
+[root@iZ28b2y73h7Z ~]# 
+[root@iZ28b2y73h7Z ~]# ls
+[root@iZ28b2y73h7Z ~]# hostname
+iZ28b2y73h7Z
+[root@iZ28b2y73h7Z ~]# hostname lianger
+[root@iZ28b2y73h7Z ~]# 
+[root@iZ28b2y73h7Z ~]# 
+[root@iZ28b2y73h7Z ~]# 
+[root@iZ28b2y73h7Z ~]# ls
+[root@iZ28b2y73h7Z ~]# 
+[root@iZ28b2y73h7Z ~]# pwd
+/root
+[root@iZ28b2y73h7Z ~]# cd /home/ThinkPHP/
+[root@iZ28b2y73h7Z ThinkPHP]# pwd
+/home/ThinkPHP
+[root@iZ28b2y73h7Z ThinkPHP]# 
+[root@iZ28b2y73h7Z ThinkPHP]# clear    //执行清屏
+[root@iZ28b2y73h7Z ThinkPHP]# 
 
+```
 
 
 #####history 命令 ：查看历史命令(即查看你输入过的命令，最多显示500条命令)，如：
 执行 history 后：
-![Alt text](./屏幕快照 2016-01-26 上午12.49.22.png)
+```
+   89  sudo ./jdk-1.7.sh 
+   90  eixt
+   91  exit
+   92  ls
+   93  cd /
+   94  ls
+   95  cd home/
+   96  ls
+   97  rm -rf cheers
+   98  ls
+   99  su -
+  100  exit
+  101  ls
+  102  hostname
+  103  hostname lianger
+  104  ls
+  105  pwd
+  106  cd /home/ThinkPHP/
+  107  pwd
+  108  clear
+  109  history
+[root@iZ28b2y73h7Z ThinkPHP]# 
+```
 
 
 #####exit 命令：退出
@@ -122,7 +168,32 @@ Common
 ```
 [root@lianger]# man mv 
 ```
-![Alt text](./屏幕快照 2016-01-26 上午1.19.10.png)
+```
+MV(1)                            User Commands                           MV(1)
+
+NAME
+       mv - move (rename) files
+
+SYNOPSIS
+       mv [OPTION]... [-T] SOURCE DEST
+       mv [OPTION]... SOURCE... DIRECTORY
+       mv [OPTION]... -t DIRECTORY SOURCE...
+
+DESCRIPTION
+       Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       --backup[=CONTROL]
+              make a backup of each existing destination file
+
+       -b     like --backup but does not accept an argument
+
+       -f, --force
+              do not prompt before overwriting
+ Manual page mv(1) line 1 (press h for help or q to quit)
+```
 
 #####mv 命令： 移动或充命名文件/目录
 不难看出 mv 的命令是什么意思，它用于文件或目录的移动以及改名
@@ -188,15 +259,4 @@ dedede
 		3、鸟哥的 LINUX 私房菜服务器篇(第三版)
 
 		4、Linux命令行与 Shell脚本编程大全
-
-
-
-
-
-
-
-
-
-
-
 
